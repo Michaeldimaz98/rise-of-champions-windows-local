@@ -1,0 +1,22 @@
+name: Phase 79 package verification
+on:
+  push:
+    branches:
+      - phase79-hardening
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Verify ZIP integrity
+        run: unzip -t rise-of-champions-windows-local.zip
+      - name: Extract package
+        run: unzip -q rise-of-champions-windows-local.zip -d "$RUNNER_TEMP/roc-package"
+      - name: Syntax-check every JavaScript file
+        run: find "$RUNNER_TEMP/roc-package/rise-of-champions" -type f -name '*.js' -print0 | xargs -0 -n1 node --check
+      - name: Run targeted Phase 79 tests
+        run: cd "$RUNNER_TEMP/roc-package/rise-of-champions/server" && npm test
