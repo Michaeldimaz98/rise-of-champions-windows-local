@@ -1,1 +1,0 @@
-{"levels":{"1":{"costPerReport":2000,"noiseStd":8},"2":{"costPerReport":5000,"noiseStd":6},"3":{"costPerReport":12000,"noiseStd":4.5},"4":{"costPerReport":25000,"noiseStd":3},"5":{"costPerReport":50000,"noiseStd":2}},"regions":["Domestic","Continental","Worldwide"],"starThresholds":[55,65,75,85]}
