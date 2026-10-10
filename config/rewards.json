@@ -1,0 +1,210 @@
+{
+  "_comment": "Phase 23 rewards. All values data-driven; game code must not hard-code reward amounts.",
+  "achievements": [
+    {
+      "cash": 50000,
+      "desc": "Win your first match",
+      "id": "first_win",
+      "name": "First Victory",
+      "stat": "wins",
+      "target": 1,
+      "category": "Match"
+    },
+    {
+      "cash": 150000,
+      "desc": "Win 10 matches",
+      "id": "winner_10",
+      "name": "Serial Winner",
+      "stat": "wins",
+      "target": 10,
+      "category": "Match"
+    },
+    {
+      "cash": 100000,
+      "desc": "Manage 25 matches",
+      "id": "veteran_25",
+      "name": "Veteran Gaffer",
+      "stat": "played",
+      "target": 25,
+      "category": "Match"
+    },
+    {
+      "cash": 300000,
+      "desc": "Manage 100 matches",
+      "id": "veteran_100",
+      "name": "Century Club",
+      "stat": "played",
+      "target": 100,
+      "category": "Match"
+    },
+    {
+      "cash": 100000,
+      "desc": "Score 50 goals",
+      "id": "goal_50",
+      "name": "Goal Machine",
+      "stat": "goalsFor",
+      "target": 50,
+      "category": "Match"
+    },
+    {
+      "cash": 250000,
+      "desc": "Score 200 goals",
+      "id": "goal_200",
+      "name": "Goal Avalanche",
+      "stat": "goalsFor",
+      "target": 200,
+      "category": "Match"
+    },
+    {
+      "cash": 30000,
+      "desc": "Win 3 matches in a row",
+      "id": "streak_3",
+      "name": "Hat-trick of Wins",
+      "stat": "bestWinStreak",
+      "target": 3,
+      "category": "Match"
+    },
+    {
+      "cash": 75000,
+      "desc": "Win 5 matches in a row",
+      "id": "streak_5",
+      "name": "Unstoppable",
+      "stat": "bestWinStreak",
+      "target": 5,
+      "category": "Match"
+    },
+    {
+      "cash": 200000,
+      "desc": "Win 10 matches in a row",
+      "id": "streak_10",
+      "name": "Invincible Run",
+      "stat": "bestWinStreak",
+      "target": 10,
+      "category": "Match"
+    },
+    {
+      "cash": 75000,
+      "desc": "Promote 1 youth player",
+      "id": "youth_1",
+      "name": "Talent Factory",
+      "stat": "youthPromoted",
+      "target": 1,
+      "category": "Club"
+    },
+    {
+      "cash": 100000,
+      "desc": "Complete 3 signings",
+      "id": "dealer_3",
+      "name": "Wheeler Dealer",
+      "stat": "signings",
+      "target": 3,
+      "category": "Transfer"
+    },
+    {
+      "id": "first_training",
+      "category": "Management",
+      "name": "First Session",
+      "desc": "Complete your first training session.",
+      "stat": "trainings",
+      "target": 1,
+      "cash": 20000
+    },
+    {
+      "id": "trainer_50",
+      "category": "Management",
+      "name": "Drill Sergeant",
+      "desc": "Complete 50 training sessions.",
+      "stat": "trainings",
+      "target": 50,
+      "cash": 150000
+    },
+    {
+      "id": "facility_first",
+      "category": "Management",
+      "name": "Under Construction",
+      "desc": "Upgrade your first facility.",
+      "stat": "facilitiesUpgraded",
+      "target": 1,
+      "cash": 30000
+    },
+    {
+      "id": "winner_50",
+      "category": "Match",
+      "name": "Half Century",
+      "desc": "Win 50 matches.",
+      "stat": "wins",
+      "target": 50,
+      "cash": 400000
+    },
+    {
+      "id": "goal_500",
+      "category": "Match",
+      "name": "Goal Glut",
+      "desc": "Score 500 goals.",
+      "stat": "goalsFor",
+      "target": 500,
+      "cash": 500000
+    },
+    {
+      "id": "dealer_10",
+      "category": "Transfer",
+      "name": "Transfer Mogul",
+      "desc": "Complete 10 signings.",
+      "stat": "signings",
+      "target": 10,
+      "cash": 250000
+    },
+    {
+      "id": "youth_5",
+      "category": "Club",
+      "name": "Academy Graduate",
+      "desc": "Promote 5 youth players.",
+      "stat": "youthPromoted",
+      "target": 5,
+      "cash": 200000
+    }
+  ],
+  "daily": [
+    {
+      "cash": 25000,
+      "day": 1,
+      "label": "Welcome back bonus"
+    },
+    {
+      "cash": 50000,
+      "day": 2,
+      "label": "Training fund"
+    },
+    {
+      "cash": 75000,
+      "day": 3,
+      "label": "Scout budget"
+    },
+    {
+      "cash": 100000,
+      "day": 4,
+      "label": "Matchday boost"
+    },
+    {
+      "cash": 150000,
+      "day": 5,
+      "label": "Transfer kitty"
+    },
+    {
+      "cash": 200000,
+      "day": 6,
+      "label": "Board bonus"
+    },
+    {
+      "cash": 300000,
+      "day": 7,
+      "label": "Jackpot day"
+    }
+  ],
+  "leagueSeason": {
+    "1": 300000,
+    "2": 150000,
+    "3": 75000
+  },
+  "streakWeekBonus": 100000
+}

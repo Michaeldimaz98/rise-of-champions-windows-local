@@ -1,0 +1,18 @@
+{
+  "cup": {
+    "rounds": {
+      "2": "Final",
+      "4": "Semi-final",
+      "8": "Quarter-final"
+    }
+  },
+  "league": {
+    "drawPoints": 1,
+    "homeAndAway": true,
+    "winPoints": 3
+  },
+  "continental": {
+    "name": "Continental Champions",
+    "slots": 4
+  }
+}

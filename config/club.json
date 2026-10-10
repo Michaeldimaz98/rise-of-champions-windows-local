@@ -1,0 +1,1 @@
+{"board":{"confidenceOnMet":15,"confidenceOnMissed":-20,"expectationBands":[[80,100,1],[60,79,4],[40,59,8],[1,39,12]],"resetConfidence":50,"sackAt":0,"startConfidence":60,"warningBelow":30},"maxLevel":10,"reputationRange":[1,100],"startingCash":10000000,"startingReputation":40}

@@ -1,0 +1,23 @@
+Rise of Champions - Windows Local Package
+==========================================
+Build date : 2026-10-11
+Source     : Phase 77 verified (regression 811/811, harness 37/37)
+Gameplay   : frozen since Phase 58 (no changes in packaging)
+
+Contents:
+  RUN_GAME.bat      Windows launcher (cek Node.js, start server, buka browser)
+  README-ID.md      Panduan Indonesia
+  MANIFEST.txt      File ini
+  CARA-JALANKAN.txt Panduan lama (arsip)
+  server/           Node.js server (tanpa dependency eksternal)
+  client/           Browser client (HTML/CSS/JS)
+  config/           Konfigurasi game JSON
+
+Runtime:
+  Node.js LTS (v20+ disarankan; diuji di v24)
+  Port default : 3000 (bisa diubah via env PORT)
+  URL          : http://localhost:3000/
+  Data         : server/data/ (dibuat otomatis saat pertama jalan)
+
+Checksums (MD5):
+  client/js/app.js : b3d635a98183007c10b465554c6f36e1
